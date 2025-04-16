@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelurahan Air Asam</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Hero Section -->
+  <section class="relative bg-blue-800 text-white py-20 px-4 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Kelurahan Air Asam</h1>
+      <p class="text-lg md:text-xl">Melayani Masyarakat dengan Sepenuh Hati</p>
+    </div>
+  </section>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex flex-wrap justify-center space-x-6">
+      <a href="#profil" class="text-blue-700 hover:underline font-semibold">Profil</a>
+      <a href="#struktur" class="text-blue-700 hover:underline font-semibold">Struktur</a>
+      <a href="#layanan" class="text-blue-700 hover:underline font-semibold">Layanan</a>
+      <a href="#program" class="text-blue-700 hover:underline font-semibold">Program</a>
+      <a href="#informasi" class="text-blue-700 hover:underline font-semibold">Informasi</a>
+      <a href="#kontak" class="text-blue-700 hover:underline font-semibold">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- Content Sections -->
+  <main class="container mx-auto px-4 py-10 space-y-16">
+    <section id="profil">
+      <h2 class="text-3xl font-bold mb-4">Profil Kelurahan</h2>
+      <p class="mb-2"><strong>Sejarah:</strong> Kelurahan Air Asam memiliki sejarah panjang dan kaya sejak [Tahun].</p>
+      <p class="mb-2"><strong>Visi:</strong> Menjadi kelurahan yang maju, mandiri, dan sejahtera.</p>
+      <p class="mb-2"><strong>Misi:</strong></p>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Meningkatkan kualitas pelayanan publik</li>
+        <li>Mendorong partisipasi masyarakat dalam pembangunan</li>
+        <li>Menciptakan lingkungan yang bersih, sehat, dan nyaman</li>
+      </ul>
+    </section>
+
+    <section id="struktur" class="bg-white p-6 rounded shadow">
+      <h2 class="text-3xl font-bold mb-4">Struktur Organisasi</h2>
+      <ul class="space-y-2">
+        <li><strong>Lurah:</strong> Agusrafina, SIP</li>
+        <li><strong>Sekretaris:</strong> Junaidi, A.Md</li>
+        <li><strong>Kepala Seksi:</strong> Pemerintahan, Pembangunan, Kesejahteraan Sosial, Ketentraman dan Ketertiban</li>
+      </ul>
+    </section>
+
+    <section id="layanan">
+      <h2 class="text-3xl font-bold mb-4">Layanan Masyarakat</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Administrasi</h3>
+          <p>Surat kependudukan, legalisasi, dll</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Perizinan</h3>
+          <p>Izin usaha, IMB, dll</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="text-xl font-semibold mb-2">Bantuan Sosial</h3>
+          <p>Sembako, bantuan pendidikan, dll</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="bg-white p-6 rounded shadow">
+      <h2 class="text-3xl font-bold mb-4">Program Unggulan</h2>
+      <ol class="list-decimal pl-6 space-y-1">
+        <li><strong>Kebersihan Lingkungan:</strong> Kerja bakti, pengelolaan sampah</li>
+        <li><strong>Peningkatan Ekonomi:</strong> Pelatihan & UMKM</li>
+        <li><strong>Kesehatan Masyarakat:</strong> Posyandu, penyuluhan, senam sehat</li>
+      </ol>
+    </section>
+
+    <section id="informasi">
+      <h2 class="text-3xl font-bold mb-4">Informasi Penting</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><strong>Pengumuman:</strong> Jadwal pelayanan dan peraturan terbaru</li>
+        <li><strong>Berita:</strong> Kegiatan terbaru kelurahan</li>
+        <li><strong>Acara Mendatang:</strong> Perayaan hari besar dan kegiatan sosial</li>
+      </ul>
+    </section>
+
+    <section id="kontak" class="bg-white p-6 rounded shadow">
+      <h2 class="text-3xl font-bold mb-4">Hubungi Kami</h2>
+      <p><strong>Alamat:</strong> JL. LURUS, KEL. AIR ASAM</p>
+      <p><strong>Telp:</strong> +6285273250916</p>
+      <p><strong>Email:</strong> kel.airasam@gmail.com</p>
+      <div class="mt-6">
+        <iframe src="https://forms.gle/WtDAP8dHicVvKgqHA" width="100%" height="600" frameborder="0" class="border rounded">Memuat Formulir…</iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6 mt-10">
+    <p class="text-sm">&copy; 2025 Kelurahan Air Asam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
