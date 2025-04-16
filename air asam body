@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelurahan Air Asam</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white py-6 shadow-md">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold">Kelurahan Air Asam</h1>
+      <p class="text-sm">Melayani Masyarakat dengan Sepenuh Hati</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-2 flex space-x-4 overflow-x-auto">
+      <a href="#profil" class="hover:underline">Profil</a>
+      <a href="#struktur" class="hover:underline">Struktur</a>
+      <a href="#layanan" class="hover:underline">Layanan</a>
+      <a href="#program" class="hover:underline">Program</a>
+      <a href="#informasi" class="hover:underline">Informasi</a>
+      <a href="#kontak" class="hover:underline">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- Profil -->
+  <section id="profil" class="py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Profil Kelurahan</h2>
+    <p class="mb-2"><strong>Sejarah:</strong> Kelurahan Air Asam memiliki sejarah panjang dan kaya sejak [Tahun].</p>
+    <p class="mb-2"><strong>Visi:</strong> Menjadi kelurahan yang maju, mandiri, dan sejahtera.</p>
+    <p class="mb-2"><strong>Misi:</strong></p>
+    <ul class="list-disc pl-6">
+      <li>Meningkatkan kualitas pelayanan publik</li>
+      <li>Mendorong partisipasi masyarakat dalam pembangunan</li>
+      <li>Menciptakan lingkungan yang bersih, sehat, dan nyaman</li>
+    </ul>
+  </section>
+
+  <!-- Struktur Organisasi -->
+  <section id="struktur" class="bg-white py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Struktur Organisasi</h2>
+    <p><strong>Lurah:</strong> Agusrafina, SIP</p>
+    <p><strong>Sekretaris:</strong> Junaidi, A.Md</p>
+    <p><strong>Kepala Seksi:</strong> Pemerintahan, Pembangunan, Kesejahteraan Sosial, Ketentraman dan Ketertiban</p>
+  </section>
+
+  <!-- Layanan Masyarakat -->
+  <section id="layanan" class="py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Layanan Masyarakat</h2>
+    <ul class="list-disc pl-6">
+      <li><strong>Administrasi:</strong> Surat kependudukan, legalisasi, dll</li>
+      <li><strong>Perizinan:</strong> Izin usaha, IMB, dll</li>
+      <li><strong>Bantuan Sosial:</strong> Sembako, bantuan pendidikan, dll</li>
+    </ul>
+  </section>
+
+  <!-- Program Unggulan -->
+  <section id="program" class="bg-white py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Program Unggulan</h2>
+    <ol class="list-decimal pl-6">
+      <li><strong>Kebersihan Lingkungan:</strong> Kerja bakti, pengelolaan sampah</li>
+      <li><strong>Peningkatan Ekonomi:</strong> Pelatihan & UMKM</li>
+      <li><strong>Kesehatan Masyarakat:</strong> Posyandu, penyuluhan, senam sehat</li>
+    </ol>
+  </section>
+
+  <!-- Informasi Penting -->
+  <section id="informasi" class="py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Informasi Penting</h2>
+    <ul class="list-disc pl-6">
+      <li><strong>Pengumuman:</strong> Jadwal pelayanan dan peraturan terbaru</li>
+      <li><strong>Berita:</strong> Kegiatan terbaru kelurahan</li>
+      <li><strong>Acara Mendatang:</strong> Perayaan hari besar dan kegiatan sosial</li>
+    </ul>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-white py-10 px-4 container mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Hubungi Kami</h2>
+    <p><strong>Alamat:</strong> JL. LURUS, KEL. AIR ASAM</p>
+    <p><strong>Telp:</strong> +6285273250916</p>
+    <p><strong>Email:</strong> kel.airasam@gmail.com</p>
+    <div class="mt-4">
+      <iframe src="https://forms.gle/WtDAP8dHicVvKgqHA" width="100%" height="600" frameborder="0">Memuat Formulir…</iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Kelurahan Air Asam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
